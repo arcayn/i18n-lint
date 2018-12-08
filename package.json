@@ -29,12 +29,12 @@
   "license": "MIT",
   "bugs": "https://github.com/jwarby/i18n-lint/issues",
   "dependencies": {
-    "chalk": "^1.0.0",
+    "chalk": "^2.0.0",
     "commander": "^2.0.0",
-    "glob": "^5.0.0",
+    "glob": "^7.0.0",
     "htmlparser2": "^3.0.0",
     "lodash": "^4.17.6",
-    "node.extend": "^1.0.0"
+    "node.extend": "^2.0.0"
   },
   "devDependencies": {
     "chai": "^3.0.0",
