@@ -7,7 +7,11 @@
 [![Coverage Status](https://coveralls.io/repos/jwarby/i18n-lint/badge.svg?branch=master&service=github)](https://coveralls.io/github/jwarby/i18n-lint?branch=master)
 
 `i18n-lint` is a tool for detecting hardcoded (untranslated) strings in HTML and template source files.  It can be used a CLI utility, or as library.
-`i18n-lint` detects instances where a HTML element's text node or certain attributes look like a hardcoded string.
+`i18n-lint` detects instances where a HTML element's text node or certain attributes look like a hardcoded string
+
+
+This fork was designed to work in a specific use case - with Django and grunt. `template-delimiters` has been replaced slightly hackily by a 2d array allowing you to define all four of the django delimiters which should be ignored (`{% %}, {{ }}, {# #}, {% blocktrans %})`). It will, of course, work with any multi-delimited templating language.
+
 
 See <https://jwarby.github.io/i18n-lint/> for the full documentation and demos.
 
