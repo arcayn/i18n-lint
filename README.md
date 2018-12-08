@@ -2,8 +2,8 @@
 > Detect possible instances of untranslated strings being used in HTML and HTML-derived template languages
 
 [![Build Status](https://secure.travis-ci.org/jwarby/i18n-lint.png?branch=master)](https://travis-ci.org/jwarby/i18n-lint)
-[![Dependency Status](https://david-dm.org/jwarby/i18n-lint.svg?style=flat)](https://david-dm.org/jwarby/i18n-lint)
-[![devDependency Status](https://david-dm.org/jwarby/i18n-lint/dev-status.svg?style=flat)](https://david-dm.org/jwarby/i18n-lint#info=devDependencies)
+[![Dependency Status](https://david-dm.org/arcayn/i18n-lint.svg?style=flat)](https://david-dm.org/arcayn/i18n-lint)
+[![devDependency Status](https://david-dm.org/arcayn/i18n-lint/dev-status.svg?style=flat)](https://david-dm.org/arcayn/i18n-lint#info=devDependencies)
 [![Coverage Status](https://coveralls.io/repos/jwarby/i18n-lint/badge.svg?branch=master&service=github)](https://coveralls.io/github/jwarby/i18n-lint?branch=master)
 
 `i18n-lint` is a tool for detecting hardcoded (untranslated) strings in HTML and template source files.  It can be used a CLI utility, or as library.
